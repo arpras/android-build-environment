@@ -6,5 +6,4 @@ services:
   - docker
 
 before_install:
-  - docker build --help
-  - docker build -q -t uber/android-build-environment 
+  - docker build --quiet=true -t uber/android-build-environment 
